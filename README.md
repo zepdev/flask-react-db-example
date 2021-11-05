@@ -1,5 +1,7 @@
 # Example web app with three services Flask, React, and Postgres
 
+export REACT_APP_API_SERVICE_URL=http://localhost:5004
+
 ## Build the containers
 docker-compose build
 
